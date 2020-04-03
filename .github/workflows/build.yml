@@ -1,9 +1,9 @@
 name: Build on tag
 
-on:
-  create:
-    tags:
-      - v*
+#on:
+#  create:
+#    tags:
+#      - v*
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

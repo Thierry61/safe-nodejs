@@ -1,10 +1,10 @@
 name: Version Bump and Tag
 
-on:
-  # Trigger the workflow on push only for the master branch
-  push:
-    branches:
-      - master
+#on:
+#  # Trigger the workflow on push only for the master branch
+#  push:
+#    branches:
+#      - master
 
 env:
   NODE_ENV: 'development'
